@@ -1,0 +1,130 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+h1 {
+	margin: 0;
+    text-align: center;
+}
+.boton {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+#texto{
+	text-align: center;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.ov-btn-slide-top {
+	background: #fff; /* color de fondo */
+	color: #333; /* color de fuente */
+	border: 3px solid #333; /* tamaño y color de borde */
+	padding: 20px 75px;
+	border-radius: 30px; /* redondear bordes */
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	
+	display: flex;
+    justify-content: space-between;
+	
+	
+  }
+  .ov-btn-slide-top:hover {
+	color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-top::after {
+	content: "";
+	background: #333; /* color de fondo hover */
+	position: absolute;
+	z-index: -1;
+	padding: 16px 20px;
+	display: block;
+	left: 0;
+	right: 0;
+	top: -100%;
+	bottom: 100%;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+  }
+  .ov-btn-slide-top:hover::after {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+  }
+p {
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 30px;
+	margin: 5px;
+}
+.footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #3D3B2B;
+}
+.imagenes-proveedores {
+	text-align: center;
+}
+.imagenes-proveedores img{
+	width: 150px;
+}
+
+
+.texto-Caracteristicas {
+	background-color: #4CF6E9;
+	padding: 20px;
+}
+.texto-Ventajas {
+	background-color: #FFC548;
+	padding: 20px;
+}
+.texto-Diferencias {
+	background-color: #74F83E;
+	padding: 20px;
+}
+.texto-Proveedores {
+	background-color: #C064F1;
+	padding: 20px;
+}
+.texto-Precios {
+	background-color: #DEF164;
+	padding: 20px;
+}
+.texto-Funcionamiento {
+	background-color: #F164EF;
+	padding: 20px;
+}
+
+.imagen-servidor {
+	text-align: center;
+	padding: 20px;
+}

@@ -1,0 +1,146 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+.h1 {
+	margin: 0;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.foot {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.boton {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+
+.ov-btn-slide-top {
+	background: #fff; /* color de fondo */
+	color: #333; /* color de fuente */
+	border: 3px solid #333; /* tamaño y color de borde */
+	padding: 20px 75px;
+	border-radius: 30px; /* redondear bordes */
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	
+	display: flex;
+    justify-content: space-between;
+	
+	
+  }
+  .ov-btn-slide-top:hover {
+	color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-top::after {
+	content: "";
+	background: #333; /* color de fondo hover */
+	position: absolute;
+	z-index: -1;
+	padding: 16px 20px;
+	display: block;
+	left: 0;
+	right: 0;
+	top: -100%;
+	bottom: 100%;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+  }
+  .ov-btn-slide-top:hover::after {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+  }
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+	
+}
+.contenedora{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+	--opacidad-negro: 0.5;
+	margin: 0%;
+    
+	
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white;
+	text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+	font-size: 20px;
+	
+}
+.imgg{
+	filter: blur(4px);
+}
+.aftertoimg{
+	display: flex;
+	margin-top: 90px;
+	background-image: linear-gradient(0, #ffffff 0, #a7d1f3 25%, #ffffff 100%);	
+	padding: 35px;
+	
+}
+.px{
+	padding-left: 15px;
+	
+}
+.h2s{
+	text-align: center;
+}
